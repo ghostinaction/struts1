@@ -16,7 +16,7 @@ public class JDBCUtilsSuper {
 	private static String PASSWORD;
 	
 	static{
-		InputStream inputStream = JDBCUtilsSuper.class.getResourceAsStream("/com/cms/config/db.properties");
+		InputStream inputStream = JDBCUtilsSuper.class.getResourceAsStream("/com/oyq/config/db.properties");
 		Properties properties = new Properties();
 		try {
 			properties.load(inputStream);
